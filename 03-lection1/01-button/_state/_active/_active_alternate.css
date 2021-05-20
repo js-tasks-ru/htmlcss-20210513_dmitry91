@@ -1,0 +1,4 @@
+.button_active_alternate:active {
+    border: 1px solid #212429;
+    box-sizing: border-box;
+}

@@ -1,0 +1,4 @@
+.button_secondary {
+    background: var(--secondary);
+    border-radius: 8px;
+}
