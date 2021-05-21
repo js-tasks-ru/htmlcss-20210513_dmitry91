@@ -1,6 +1,9 @@
 @import './reset.css';
 @import "~normalize.css/normalize.css";
 @import '../fonts/fonts.css';
+@import '../components/footer.css';
+@import '../components/header.css';
+@import '../components/main.css';
 
 :root {
     --white: #ffffff;
