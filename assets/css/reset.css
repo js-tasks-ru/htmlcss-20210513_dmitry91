@@ -6,3 +6,20 @@ button {
     background-color: transparent;
     cursor: pointer;
 }
+
+/* Убираем стандартный маркер Chrome */
+summary::-webkit-details-marker {
+    display: none;
+}
+/* Убираем стандартный маркер Firefox */
+summary {display: block;}
+
+/*
+summary::before {
+    content: '\25B6';
+    padding-right: 0.5em;
+}
+
+details[open] > summary::before {
+    content: '\25BC';
+}*/
