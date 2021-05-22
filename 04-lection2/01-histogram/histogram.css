@@ -74,13 +74,10 @@
     flex-direction: column;
 }
 
-.flex__container_gap_1 {
-    gap: 1px;
-}
-
 .histogram {
     height: 50px;
     overflow-x: auto;
+    gap: 1px;
 }
 
 .histogram__item {
