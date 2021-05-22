@@ -78,11 +78,6 @@
     gap: 1px;
 }
 
-.flex__item_grow_1 {
-    flex-grow: 1;
-}
-
-
 .histogram {
     height: 50px;
     overflow-x: auto;
@@ -90,7 +85,7 @@
 
 .histogram__item {
     background: var(--blue-2);
+    flex-basis: 100%;
     min-width: 9px;
-    flex-basis: 9px;
     align-self: flex-end;
 }
