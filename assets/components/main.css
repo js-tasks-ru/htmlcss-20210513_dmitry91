@@ -1,4 +1,46 @@
 .main {
     background: #F9FAFC;
-    height: 1036px;
+    padding: 69px 165px;
+}
+
+.signature {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.card {
+    display: inline-block;
+    background: var(--white);
+    box-shadow: 0 2px 4px rgba(33, 36, 41, 0.05);
+    border-radius: 12px;
+}
+
+.card__content {
+    padding: 30px;
+}
+
+.card__content_size {
+    height: 367px;
+    width: 350px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex__container_spacing_30 {
+    gap: 30px;
+}
+
+.flex__container_wrap {
+    flex-wrap: wrap;
+}
+
+.flex__container_justify_center {
+    justify-content: center;
+}
+
+.flex__item_align-self_flex-end {
+    align-self: flex-end;
 }
