@@ -1,4 +1,13 @@
 .button_primary {
     background: var(--primary);
     border-radius: 8px;
+    color: var(--white);
+}
+
+.button_primary:active {
+    background: #2342C0;
+}
+
+.button_primary:hover {
+    background: #2342C0;
 }

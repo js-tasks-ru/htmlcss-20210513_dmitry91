@@ -1,0 +1,53 @@
+.card {
+    background: var(--white);
+    border: 1px solid var(--grey-3);
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.card__container {
+    width: 579px;
+}
+
+.card__header {
+    padding: 24px;
+}
+
+.card__content {
+    padding: 0 24px 24px 24px
+}
+
+.skeleton__circle {
+    width: 64px;
+    height: 64px;
+    background: var(--grey-2);
+    border-radius: 50%;
+}
+
+.circle__box {
+    margin-right: 16px;
+}
+
+.skeleton__text {
+    height: 20px;
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+    margin-bottom: 8px;
+}
+
+.skeleton__text:last-child {
+    margin-bottom: 0;
+}
+
+.skeleton__group {
+    flex-grow: 1;
+    align-self: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.skeleton {
+    gap: 16px;
+}
+

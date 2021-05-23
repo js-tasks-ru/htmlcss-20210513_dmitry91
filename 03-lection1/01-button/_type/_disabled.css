@@ -1,7 +1,4 @@
 .button_disabled {
     opacity: 0.5;
-}
-
-.button_disabled:hover {
     cursor: not-allowed;
 }

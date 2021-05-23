@@ -1,3 +1,12 @@
+.typography {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black);
+}
+
 .card {
     background: var(--white);
     border: 1px solid var(--grey-3);
@@ -25,42 +34,15 @@
 .card__calc {
     margin-top: 6px;
     margin-bottom: 0;
+    font-size: 20px;
+    line-height: 26px;
 }
 
 .card__view {
     margin: 0;
     cursor: pointer;
-}
-
-
-
-
-.typography {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--black);
-}
-
-.typography_variant_h4 {
-    font-size: 20px;
-    line-height: 26px;
-}
-
-.typography_color_blue-2 {
     color: var(--blue-2);
 }
-
-.typography__body-2 {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 26px;
-}
-
-
 
 .flex {
     display: flex;

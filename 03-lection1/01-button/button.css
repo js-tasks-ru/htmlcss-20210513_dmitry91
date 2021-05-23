@@ -1,14 +1,7 @@
 @import './_type/_primary.css';
 @import './_type/_secondary.css';
 @import './_type/_alternate.css';
-
-@import './_state/_hover/_hover_primary.css';
-@import './_state/_hover/_hover_secondary.css';
-@import './_state/_hover/_hover_alternate.css';
-@import './_state/_active/_active_primary.css';
-@import './_state/_active/_active_secondary.css';
-@import './_state/_active/_active_alternate.css';
-@import './_state/_disabled/_disabled.css';
+@import './_type/_disabled.css';
 
 @import './__text/button__text.css';
 
