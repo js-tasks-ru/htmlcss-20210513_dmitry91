@@ -1,0 +1,4 @@
+.button_primary {
+    background: var(--primary);
+    border-radius: 8px;
+}

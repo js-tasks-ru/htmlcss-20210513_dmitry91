@@ -1,0 +1,6 @@
+@import './_color/_white.css';
+@import './_color/_grey_4.css';
+
+.button__text {
+    font-weight: 500;
+}
