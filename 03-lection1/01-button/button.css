@@ -1,1 +1,14 @@
-/* Стилизация кнопки */
+@import './_type/_primary.css';
+@import './_type/_secondary.css';
+@import './_type/_alternate.css';
+@import './_type/_disabled.css';
+
+@import './__text/button__text.css';
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 65px;
+    margin: 2px 0;
+}

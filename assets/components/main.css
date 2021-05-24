@@ -1,0 +1,8 @@
+.main {
+    background: #F9FAFC;
+    padding: 69px 165px;
+}
+
+.main__container_spacing {
+    gap: 30px;
+}

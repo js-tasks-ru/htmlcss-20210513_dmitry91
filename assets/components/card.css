@@ -1,0 +1,21 @@
+.card {
+    display: inline-block;
+    background: var(--white);
+    box-shadow: 0 2px 4px rgba(33, 36, 41, 0.05);
+    border-radius: 12px;
+}
+
+.card__content {
+    padding: 30px;
+}
+
+.card__content_size {
+    height: 367px;
+    width: 350px;
+}
+
+.card__title {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+}

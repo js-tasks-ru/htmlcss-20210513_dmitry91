@@ -1,0 +1,13 @@
+.button_secondary {
+    background: var(--secondary);
+    border-radius: 8px;
+    color: var(--white);
+}
+
+.button_secondary:active {
+    background: #5028C6;
+}
+
+.button_secondary:hover {
+    background: #5028C6;
+}
